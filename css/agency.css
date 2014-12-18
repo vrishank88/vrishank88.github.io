@@ -9,6 +9,11 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.contact-subheading {
+    color: #fff;
+}
+
+
 .text-muted {
     color: #777;
 }
@@ -207,7 +212,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-weight: bolder;
     letter-spacing: 1px;
     color: #fff;
 }
@@ -230,9 +235,9 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 
-@media(min-width:768px) {
+@media(min-width:50px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 2px 0;
         border: 0;
         background-color: transparent;
         -webkit-transition: padding .3s;
@@ -656,11 +661,29 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
+/*section#contact {
     background-color: #222;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
+}*/
+
+section#contact {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/map-image.png);
+    background-position: center center;
+    /*background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;*/
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
 }
 
 section#contact .section-heading {
@@ -865,3 +888,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136;
 }
+
