@@ -9,11 +9,6 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.contact-subheading {
-    color: #fff;
-}
-
-
 .text-muted {
     color: #777;
 }
@@ -889,3 +884,15 @@ body {
     webkit-tap-highlight-color: #fed136;
 }
 
+.contact-subheading {
+    color: #fff;
+}
+
+.developer {
+    color: #222;
+    font-size: 12px;
+}
+
+.partOfStory {
+    color: #fff;
+}
