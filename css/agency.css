@@ -896,3 +896,7 @@ body {
 .partOfStory {
     color: #fff;
 }
+
+.text-left {
+    text-align: left;
+}
