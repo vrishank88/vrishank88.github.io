@@ -900,3 +900,12 @@ body {
 .text-left {
     text-align: left;
 }
+
+.btn-register {
+    border-color: #222;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #FED136;
+    background-color: #222;
+}
